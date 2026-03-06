@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nimbus Folios - Expert Document Management & Archiving</title>
+  <meta name="description" content="Nimbus Folios offers bespoke archival solutions, secure climate-controlled data management, and specialized meteorological data archiving.">
+  <link rel="icon" href="favicon.ico">
+  <script src="https://cdn.tailwindcss.com?v=3.2.0"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: rgb(55 65 81); /* primary color for text */
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      color: rgb(31 41 55); /* primaryDark color for headings */
+    }
+    .btn-gradient {
+      background: linear-gradient(135deg, rgb(100 116 139), rgb(71 85 105));
+      color: white;
+      border-radius: 24px;
+      padding: 12px 24px;
+      transition: all 0.3s ease;
+    }
+    .btn-gradient:hover {
+      opacity: 0.9;
+      transform: translateY(-2px);
+    }
+    .glassmorphism {
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .card-hover-effect {
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .card-hover-effect:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-5px);
+    }
+    .section-spacing {
+      padding-top: 48px;
+      padding-bottom: 48px;
+    }
+    .icon-container {
+      width: 48px;
+      height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(243 244 246);
+      border-radius: 0px; /* square */
+    }
+    .zoom-effect {
+      transition: transform 0.3s ease-in-out;
+    }
+    .zoom-effect:hover {
+      transform: scale(1.03);
+    }
+    /* Simple fade-in for sections on scroll */
+    .fade-in-section {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    .fade-in-section.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-700">
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center">
+        <a href="/" class="text-2xl font-bold text-gray-900">Nimbus Folios</a>
+      </div>
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#expertise" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Expertise</a>
+        <a href="#services" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Services</a>
+        <a href="#meteorological" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Meteorological Archive</a>
+        <a href="#facility" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Facility</a>
+        <a href="#contact" class="btn-gradient">Client Portal</a>
+      </div>
+      <div class="md:hidden flex items-center">
+        <button id="mobile-menu-button" class="text-gray-600 hover:text-gray-900 focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg py-4">
+      <a href="#expertise" class="block px-6 py-2 text-gray-700 hover:bg-gray-100">Expertise</a>
+      <a href="#services" class="block px-6 py-2 text-gray-700 hover:bg-gray-100">Services</a>
+      <a href="#meteorological" class="block px-6 py-2 text-gray-700 hover:bg-gray-100">Meteorological Archive</a>
+      <a href="#facility" class="block px-6 py-2 text-gray-700 hover:bg-gray-100">Facility</a>
+      <a href="#contact" class="block px-6 py-2 text-gray-700 hover:bg-gray-100 btn-gradient mx-6 my-2 text-center">Client Portal</a>
+    </div>
+  </header>
+<main>
+<style>
+  #nimbus-folios-terms-and-conditions {
+    padding-top: 7rem;
+  }
+</style>
+<section id="nimbus-folios-terms-and-conditions">
+  <h2 style="font-size: 2.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 1.5rem; text-align: center;">Terms and Conditions for NimbusFolios</h2>
+
+  <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem;">1. Introduction and Agreement</h3>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">Welcome to NimbusFolios. These Terms and Conditions ("Terms") govern your access to and use of our online platform and services, including but not limited to digital archiving, physical document storage, secure data management, climate-controlled storage for sensitive materials, document scanning and indexing, meteorological data archiving consulting, and bespoke archival solutions. By accessing or using our services, you expressly agree to be bound by these Terms and our Privacy Policy. If you do not agree with any part of these Terms, you must not use our services.</p>
+
+  <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem;">2. Services Provided</h3>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">NimbusFolios specializes in comprehensive document management and archiving solutions. Our services encompass:</p>
+  <ul style="list-style: disc; margin-left: 2rem; margin-bottom: 1.25rem; font-size: 1rem; line-height: 1.6;">
+    <li style="margin-bottom: 0.5rem;">Digital Archiving: Secure and accessible long-term storage of digital assets.</li>
+    <li style="margin-bottom: 0.5rem;">Physical Document Storage: Off-site storage for physical records in secure facilities.</li>
+    <li style="margin-bottom: 0.5rem;">Secure Data Management: Protocols and technologies to ensure the integrity and confidentiality of your data.</li>
+    <li style="margin-bottom: 0.5rem;">Climate-Controlled Storage: Specialized storage environments for sensitive materials, including meteorological data.</li>
+    <li style="margin-bottom: 0.5rem;">Document Scanning and Indexing: Conversion of physical documents to digital format, with intelligent indexing for easy retrieval.</li>
+    <li style="margin-bottom: 0.5rem;">Meteorological Data Archiving Consulting: Expert guidance and solutions for the specific challenges of meteorological data preservation.</li>
+    <li style="margin-bottom: 0.5rem;">Bespoke Archival Solutions: Tailored services to meet unique archival requirements.</li>
+  </ul>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">Specific terms and conditions relating to individual service agreements will be provided separately upon engagement for a particular service.</p>
+  
+  <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem;">3. User Obligations and Responsibilities</h3>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">As a user of NimbusFolios' services, you agree to:</p>
+  <ul style="list-style: disc; margin-left: 2rem; margin-bottom: 1.25rem; font-size: 1rem; line-height: 1.6;">
+    <li style="margin-bottom: 0.5rem;">Provide accurate, current, and complete information as required for the use of our services.</li>
+    <li style="margin-bottom: 0.5rem;">Comply with all applicable laws and regulations in your use of our services.</li>
+    <li style="margin-bottom: 0.5rem;">Ensure that any materials or data provided for archiving or management do not violate any third-party rights, including intellectual property, privacy, or publicity rights.</li>
+    <li style="margin-bottom: 0.5rem;">Maintain the confidentiality of any access credentials provided for our online platform.</li>
+    <li style="margin-bottom: 0.5rem;">Not use our services for any unlawful, fraudulent, or malicious purpose.</li>
+  </ul>
+
+  <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem;">4. Intellectual Property</h3>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">All content on this website, including text, graphics, logos, images, and software, is the property of NimbusFolios or its content suppliers and is protected by intellectual property laws. You may not reproduce, distribute, modify, or create derivative works from any content on this site without our express written permission. You retain all ownership rights to the documents and data you entrust to us for archiving and management.</p>
+
+  <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem;">5. Confidentiality and Data Security</h3>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">NimbusFolios is committed to protecting the confidentiality and security of your data. We employ robust security measures, including physical, technical, and administrative safeguards, to protect against unauthorized access, disclosure, alteration, or destruction of information. Our practices are detailed further in our Privacy Policy.</p>
+
+  <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem;">6. Disclaimer of Warranties</h3>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">Our services and this website are provided "as is" and "as available" without any warranties, express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement. NimbusFolios does not warrant that our services will be uninterrupted, error-free, or completely secure. While we strive to provide accurate information regarding our services, we do not guarantee the completeness or accuracy of content on this website at all times.</p>
+
+  <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem;">7. Limitation of Liability</h3>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">To the fullest extent permitted by law, NimbusFolios shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or goodwill, arising out of or in connection with your use of or inability to use our services or this website, even if NimbusFolios has been advised of the possibility of such damages. In no event shall our total liability to you for all damages, losses, and causes of action exceed the amount paid by you, if any, for accessing or using our services.</p>
+
+  <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem;">8. Indemnification</h3>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">You agree to indemnify, defend, and hold harmless NimbusFolios, its affiliates, officers, directors, employees, and agents from and against any and all claims, liabilities, damages, losses, costs, and expenses, including reasonable attorneys' fees, arising out of or in any way connected with your use of our services, your violation of these Terms, or your infringement of any intellectual property or other right of any person or entity.</p>
+
+  <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem;">9. Governing Law and Jurisdiction</h3>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">These Terms shall be governed by and construed in accordance with the laws of the State of New York, USA, without regard to its conflict of law principles. Any legal action or proceeding arising under these Terms shall be brought exclusively in the state or federal courts located in New York, New York, and you hereby consent to the personal jurisdiction and venue therein.</p>
+  
+  <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem;">10. Changes to Terms</h3>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">NimbusFolios reserves the right to modify or revise these Terms at any time. We will indicate the date of the last revision at the top of these Terms. Your continued use of our services after any such changes constitutes your acceptance of the new Terms. We encourage you to review these Terms periodically for any updates.</p>
+
+  <h3 style="font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem;">11. Contact Information</h3>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">If you have any questions about these Terms, please contact us at:</p>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 0.5rem; font-weight: 600;">NimbusFolios</p>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 0.5rem;">1088 Bushwick Avenue</p>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 0.5rem;">New York, New York, 11221</p>
+  <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">USA</p>
+</section>
+</main>
+<footer id="contact" class="bg-gray-800 text-white section-spacing pt-16 pb-8">
+    <div class="container mx-auto px-6 grid md:grid-cols-3 gap-12">
+      <div class="col-span-full md:col-span-1 fade-in-section">
+        <h3 class="text-3xl font-playfair-display text-white mb-4">Nimbus Folios</h3>
+        <p class="text-gray-300 mb-6 leading-relaxed">The premiere destination for sophisticated document management and specialized meteorological data archiving. We secure history for the future.</p>
+        <p class="text-gray-300 mb-2">1088 Bushwick Avenue, New York, NY 11221, USA</p>
+        <p class="text-gray-300 mb-2">Phone: <a href="tel:+14724617687" class="hover:text-white transition-colors duration-200">+1 (472) 461-7687</a></p>
+        <p class="text-gray-300">Email: <a href="mailto:info@DOMAIN_NAME_REPLACE" class="hover:text-white transition-colors duration-200">info@DOMAIN_NAME_REPLACE</a></p>
+      </div>
+
+      <div class="col-span-full md:col-span-2 fade-in-section">
+        <h3 class="text-3xl font-playfair-display text-white mb-6">Request a Consultation</h3>
+        <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <label for="name" class="block text-gray-300 text-sm font-bold mb-2">Name</label>
+            <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-100" placeholder="Your Name" required>
+          </div>
+          <div>
+            <label for="company" class="block text-gray-300 text-sm font-bold mb-2">Institution/Company</label>
+            <input type="text" id="company" name="company" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-100" placeholder="Institution or Company Name" required>
+          </div>
+          <div class="md:col-span-2">
+            <label for="email" class="block text-gray-300 text-sm font-bold mb-2">Email</label>
+            <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-100" placeholder="Your Email Address" required>
+          </div>
+          <div class="md:col-span-2">
+            <label for="needs" class="block text-gray-300 text-sm font-bold mb-2">Archival Needs</label>
+            <textarea id="needs" name="needs" rows="5" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-100" placeholder="Describe your archival requirements here"></textarea>
+          </div>
+          <div class="md:col-span-2 flex justify-start">
+            <button type="submit" class="btn-gradient zoom-effect">Initiate Secure Request</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="container mx-auto px-6 mt-12 pt-8 border-t border-gray-700 text-sm text-gray-400 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+      <p class="mb-4 md:mb-0">© 2024 Nimbus Folios. All rights reserved.</p>
+      <div class="space-x-4">
+        <a href="./privacy.html" class="hover:text-white transition-colors duration-200">Privacy Policy</a>
+        <a href="./tos.html" class="hover:text-white transition-colors duration-200">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="cookie-banner" class="fixed bottom-0 left-0 right-0 bg-gray-900 text-white p-4 flex items-center justify-between text-sm z-[100] hidden">
+    <p>We use cookies to ensure you get the best experience on our website. By continuing, you agree to our use of cookies.</p>
+    <button id="accept-cookies" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-full transition-colors duration-200">Accept</button>
+  </div>
+
+  <script>
+    // Mobile menu toggle
+    document.getElementById('mobile-menu-button').addEventListener('click', function() {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    // Fade-in sections on scroll
+    const fadeInSections = document.querySelectorAll('.fade-in-section');
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    fadeInSections.forEach(section => {
+      observer.observe(section);
+    });
+
+    // Cookie consent
+    const cookieBanner = document.getElementById('cookie-banner');
+    const acceptCookiesButton = document.getElementById('accept-cookies');
+    const cookieName = 'consent_Nimbus Folios_cookies'; // Unique cookie name prefix
+
+    function setCookie(name, value, days) {
+      let expires = "";
+      if (days) {
+        let date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+
+    function getCookie(name) {
+      let nameEQ = name + "=";
+      let ca = document.cookie.split(';');
+      for(let i=0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+      }
+      return null;
+    }
+
+    if (!getCookie(cookieName)) {
+      cookieBanner.classList.remove('hidden');
+    }
+
+    acceptCookiesButton.addEventListener('click', () => {
+      setCookie(cookieName, 'accepted', 365);
+      cookieBanner.classList.add('hidden');
+    });
+  </script>
+</body>
+</html>
